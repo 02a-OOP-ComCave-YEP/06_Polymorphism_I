@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="S2CIPdIG4Lf3GdL8Yfw6" name="HoneyBee">
-        <mxGraphModel dx="743" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1372" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -29,6 +29,82 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="8" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="6" target="2" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="410" y="290" as="sourcePoint"/>
+                        <mxPoint x="410" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="HoneyBee 2" id="pNneG9FhqMSP1JaIlKbZ">
+        <mxGraphModel dx="1372" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="4wIse4JF-QrfICoor57K-0"/>
+                <mxCell id="4wIse4JF-QrfICoor57K-1" parent="4wIse4JF-QrfICoor57K-0"/>
+                <mxCell id="4wIse4JF-QrfICoor57K-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;HoneyBee&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ doYourJob(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ fly(): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="4wIse4JF-QrfICoor57K-1">
+                    <mxGeometry x="320" y="40" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="4wIse4JF-QrfICoor57K-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Queen&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ doYourJob(): String&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="4wIse4JF-QrfICoor57K-1">
+                    <mxGeometry x="120" y="280" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="4wIse4JF-QrfICoor57K-4" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="4wIse4JF-QrfICoor57K-1" source="4wIse4JF-QrfICoor57K-3" target="4wIse4JF-QrfICoor57K-2">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="150" y="170" as="sourcePoint"/>
+                        <mxPoint x="280" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4wIse4JF-QrfICoor57K-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Worker&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ doYourJob(): String&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="4wIse4JF-QrfICoor57K-1">
+                    <mxGeometry x="320" y="280" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="4wIse4JF-QrfICoor57K-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Drone&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ doYourJob(): String&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="4wIse4JF-QrfICoor57K-1">
+                    <mxGeometry x="520" y="280" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="4wIse4JF-QrfICoor57K-7" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="4wIse4JF-QrfICoor57K-1" source="4wIse4JF-QrfICoor57K-5" target="4wIse4JF-QrfICoor57K-2">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="210" y="290" as="sourcePoint"/>
+                        <mxPoint x="410" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4wIse4JF-QrfICoor57K-8" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="4wIse4JF-QrfICoor57K-1" source="4wIse4JF-QrfICoor57K-6" target="4wIse4JF-QrfICoor57K-2">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="410" y="290" as="sourcePoint"/>
+                        <mxPoint x="410" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="HoneyBee 1" id="_WtBfWmoJ1ut0PID7Iq3">
+        <mxGraphModel dx="1372" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="cyc7qnbUgMGqGlb3K35E-0"/>
+                <mxCell id="cyc7qnbUgMGqGlb3K35E-1" parent="cyc7qnbUgMGqGlb3K35E-0"/>
+                <mxCell id="cyc7qnbUgMGqGlb3K35E-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;HoneyBee&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ doYourJob(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ fly(): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="cyc7qnbUgMGqGlb3K35E-1">
+                    <mxGeometry x="320" y="40" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="cyc7qnbUgMGqGlb3K35E-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Queen&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="cyc7qnbUgMGqGlb3K35E-1">
+                    <mxGeometry x="120" y="280" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="cyc7qnbUgMGqGlb3K35E-4" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="cyc7qnbUgMGqGlb3K35E-1" source="cyc7qnbUgMGqGlb3K35E-3" target="cyc7qnbUgMGqGlb3K35E-2">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="150" y="170" as="sourcePoint"/>
+                        <mxPoint x="280" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="cyc7qnbUgMGqGlb3K35E-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Worker&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="cyc7qnbUgMGqGlb3K35E-1">
+                    <mxGeometry x="320" y="280" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="cyc7qnbUgMGqGlb3K35E-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Drone&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="cyc7qnbUgMGqGlb3K35E-1">
+                    <mxGeometry x="520" y="280" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="cyc7qnbUgMGqGlb3K35E-7" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="cyc7qnbUgMGqGlb3K35E-1" source="cyc7qnbUgMGqGlb3K35E-5" target="cyc7qnbUgMGqGlb3K35E-2">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="210" y="290" as="sourcePoint"/>
+                        <mxPoint x="410" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="cyc7qnbUgMGqGlb3K35E-8" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="cyc7qnbUgMGqGlb3K35E-1" source="cyc7qnbUgMGqGlb3K35E-6" target="cyc7qnbUgMGqGlb3K35E-2">
                     <mxGeometry width="160" relative="1" as="geometry">
                         <mxPoint x="410" y="290" as="sourcePoint"/>
                         <mxPoint x="410" y="140" as="targetPoint"/>
